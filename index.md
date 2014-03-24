@@ -39,7 +39,7 @@ Elements that have a set `width` become *wider* when they have `padding` and/or 
 
 <a name="rems-mobile-safari"></a>
 ### Rem units and Mobile Safari
-While Mobile Safari supports the use of `rem`s in all property values, it seems to shit the bed when `rem`s are used in dimensional media queries and infinitely flashes the page's text in different sizes.
+While Mobile Safari supports the use of `rem`s in all property values, it seems to break when `rem`s are used in dimensional media queries and infinitely flashes the page's text in different sizes.
 
 For now, use `em`s in place of `rem`s.
 
@@ -48,14 +48,14 @@ html {
   font-size: 16px;
 }
 
-/* Shits the bed */
+/* Doesn't work */
 @media (min-width: 40rem) {
   html {
     font-size: 20px;
   }
 }
 
-/* Doesn't shit the bed */
+/* Works properly */
 @media (min-width: 40em) {
   html {
     font-size: 20px;
