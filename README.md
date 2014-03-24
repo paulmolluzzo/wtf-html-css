@@ -1,8 +1,8 @@
-# WTF, HTML and CSS?
+# What the heck, HTML and CSS?
 
-**WTF, HTML and CSS?** is a list of reasons your shit is fucked. Put another way, it's a list of common HTML and CSS quandaries, miscues, and dilemmas created with the goal of making them *less* common.
+**What the heck, HTML and CSS?** is a list of reasons your HTML and/or CSS is broken. Put another way, it's a list of common HTML and CSS quandaries, miscues, and dilemmas created with the goal of making them *less* common.
 
-**[Start reading ☞](http://wtfhtmlcss.com)**
+**[Start reading ☞](http://paulmolluzzo.github.io/wth-html-css)**
 
 ---
 
@@ -13,6 +13,8 @@ Open an issue or a pull request to suggest changes or additions.
 
 ### License
 
-Released under MIT by, and copyright 2014, @mdo.
+Forked from https://github.com/mdo/wtf-html-css/.
+
+Originally released under MIT by, and copyright 2014, @mdo.
 
 <3
